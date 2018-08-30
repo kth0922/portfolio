@@ -1,0 +1,40 @@
+@charset "utf-8";
+.footer{
+	background-color: #333;
+	color: #666;
+	padding: 50px 0;
+}
+.footerAlign{
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footerLeft{
+	width: 30%;
+	float: left;
+}
+.footerRight{
+	width: 70%;
+	float: left;
+}
+.footerMenu{
+	overflow :hidden;
+}
+.footerMenu>li{
+	float: left;
+}
+.footerMenu>li>a{
+	padding: 20px 10px 20px 0;
+
+}
+.footerMenu>li+li>a::before{
+	content: '|';
+	padding-right: 10px;
+}
+.footerLogo{
+	text-align: center;
+	line-height: 232px;
+}
+.footerLogo>img{
+	vertical-align: middle;
+}
